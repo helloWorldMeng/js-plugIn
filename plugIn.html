@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="test">111111111111</div>	
+	</body>
+	<script src="plugIn.js"></script>
+	<script>
+		var a = new SetStyles({
+            container:"#test",
+            color: "red",
+			background: "blue",
+			border: "1px solid #666",
+			fontSize: "30px",
+			textAlign: "center",
+			width: "200px",
+			borderRadius: "5px",
+            text:function(){
+                return "我是文本";
+            }
+        });
+	</script>
+</html>
